@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+    height:auto;
+    width:auto
+    
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 10px;
+    color: wheat;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+
+}
+nav ul li button:hover
+{
+   color: blue;
+}
+nav ul li a:hover
+{
+    color: blue;
+}
+a
+{
+    text-decoration: none;
+    color:wheat;
+    font-size: 28px;
+}
+#register-form
+{
+    display:inherit;
+}
+.wrapper-form-box
+{
+    width:380px;
+    height: 800px;
+    position: right;
+    margin:10% auto;
+    background: transparent;
+    padding:10px;
+    overflow:hidden;
+    
+}
+.wrapper-form-box
+{
+    width: 380px;
+    height: 800px;
+    background: transparent;
+    border: 2px rgba(255,255,255, .2);
+    backdrop-filter: blur(20px);
+    color:#fff ;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.button-box
+{ 
+   width: 130px;
+   margin: 35px auto;
+   position: relative;
+   box-shadow: 0 0 200px 1px #ff61241f;
+   border-radius: 10px;
+}
+.toggle-btn
+{
+    
+    padding: 10px 40px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    background: ghostwhite;
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group-register
+{
+    top: 150px;
+    position: center;
+    width: 300px;
+    transition: .5s;
+}
+
+.input-field
+{
+    width:100% ;
+    padding: 10px 0;
+    margin:5px 0 ;
+    border-left: 0;
+    border-top: 0;
+    border-right:0 ;
+    border-bottom: 1px solid #999;
+    outline: none;
+    color: #999;
+    background: transparent;
+}
+.gender-option
+{
+  color: ghostwhite;
+}
+.submit-btn
+{
+    width: 85%;
+    padding: 10px 30px;
+    position: center;
+    cursor: pointer;
+    display: block;
+    margin: 20px;
+    background: ghostwhite;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+span
+{
+    color:ghostwhite;
+    position: space-between;
+}
+#register
+{
+    left:50px;
+}
+#register-input
+{
+    color: #999;
+    font-size: 15px;
+}
+

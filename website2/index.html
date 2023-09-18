@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sandbox.register page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="C:\Users\HP\OneDrive\Desktop\18.png" link="#000">
+    <body>
+       <div class="full-page">
+           <div class="navbar">
+               <div>
+                   <a href='website.html' size="8">SANDBOX</a>
+               </div>
+               <nav>
+                   <ul id='Menuitems'>
+                       <li><a href="file:///C:/Users/HP/OneDrive/Desktop/home/index.html" >home</a></li>
+                       <li><a href="file:///C:/Users/HP/OneDrive/Desktop/about%20page/index.html">about</a></li>
+                       <li><a href='#'>feedback</a></li>
+                       <li><a href='#'>privacy</a></li>
+                       <li><button class='registerbtn' onclick="document.getElementById('register-form').style.display='block'"
+                       style="width:auto;">register</button>
+
+                   </li>
+                   </ul>
+               </nav>
+               </div>
+               <div id='register-form'class='register-page'>
+                <div class="wrapper-form-box">
+                
+                  <div class='button-box'>
+                    
+                    <div id='btn'></div>
+                    <button
+                    type='button'onclick='register()'class='toggle-btn'>register</button>
+                  </div>
+                  <form id='register' class='input-group-register'>
+                  <input type='text' class='input-field'placeholder='first name'required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type='text' class='input-field'placeholder='last name'required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type='text' class='input-field'placeholder='age'required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type='text' class='input-field'placeholder='gender'required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <div class="gender-box">
+                    <div class="gender-option">
+                        <div class="gender">
+                         <input type="radio" id="check-male" name="gender" checked/>
+                         <label for="check-male">male</label>
+                        </div>
+                        <div class="gender-box">
+                            <div class="gender-option">
+                                <div class="gender">
+                                 <input type="radio" id="check-female" name="gender"/>
+                                 <label for="check-female">female</label>
+                  <input type='text' class='input-field'placeholder='email'required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type='text' class='input-field'placeholder='phone number'required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type='text' class='input-field'placeholder='choose workshop'required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <div class="choose workshop-box">
+                    <div class="workshop-option">
+                        <div class="workshop">
+                         <input type="radio" id="check-male" name="gender" checked/>
+                         <label for="check-leadership developement">leadership developement</label>
+                        </div>
+                        <div class="choose workshop-box">
+                            <div class="workshop-option">
+                                <div class="workshop">
+                                 <input type="radio" id="check-digital design" name="digital design"/>
+                                 <label for="check-digital design">digital design</label>
+                                 <div class="choose workshop-box">
+                                    <div class="workshop-option">
+                                        <div class="workshop">
+                                         <input type="radio" id="check-creating a business plan" name="creating a business plan"/>
+                                         <label for="creating a business plan">creating a business plan</label>         
+                  <br><br><input type='checkbox' class='check-box'><span>I agree to terms&conditions </span>
+
+                  <button type='submit' class='submit-btn'>submit</button>
+                
+                </div>
+                  </div>
+                    </div>
+                     </div>
+                      </div>
+                      <script> 
+                    var x=document .getElementById('register')
+                        </script>
+                        <script>
+                            var modal = document.getElementById('register-form')
+                            window.onclick = function(event)
+                            {
+                                if (event.target == modal)
+                                {
+                                    modal.style.display ='none'; 
+                                }
+                            }
+                        </script>
+                        
+                  </form>
+                
+ </body>   
+</body>
+</html>
+    
