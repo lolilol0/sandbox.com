@@ -1,2 +1,2 @@
 # sandbox.com
-sandbox workshop even present you with a wide range of opportunitirs so what are yo waiting for, REGISTER NOW!
+sandbox workshop event presents you with a wide range of opportunities so what are you waiting for, REGISTER NOW!
